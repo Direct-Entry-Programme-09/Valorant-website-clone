@@ -1,0 +1,13 @@
+@import url(reset.css);
+@import url(font.css);
+ *{
+    box-sizing: border-box;
+ }
+ .clear-fix{
+    clear: both;
+ }
+ .clearfix::after{
+    display: block;
+    content: "";
+    clear: both;
+ }
